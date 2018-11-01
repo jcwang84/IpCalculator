@@ -49,8 +49,7 @@ def print_fuction(subnet_mask_address,ip_networkv):
 
     ipbinary=subnet_mask_address.split(".")
     useable_ip=str(len(list(ip_networkv))-2)
-    print()
-    print()
+    empty_space()
     #print(ip_networkv)
     print('Network address:       ', ip_networkv.network_address)
     print('Broadcast address:     ', ip_networkv.broadcast_address)
