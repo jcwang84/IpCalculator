@@ -6,7 +6,7 @@ def validate_ipaddress(ip):
         return True
     except ValueError as errorCode:
          pass
-        return False
+    return False
  
 #all string questions, easy to update or delete, keep main() clean
 def text_fucntion(number):
